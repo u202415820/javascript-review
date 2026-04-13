@@ -1,10 +1,16 @@
 {
   "name": "javascript-review",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample JavaScript project for reviewing OOP and DDD concepts.",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "uuid": "^13.0.0"
+  },
+  "author": "Web Applications Development Team",
+  "license": "MIT",
   "private": true
 }
